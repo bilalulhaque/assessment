@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* My CSS */
+.input-div{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-label{
+  text-align: left;
+  font-size: 17px;
+}
+
+.input-label-span{
+  color: red;
+}
+
+.invalid-feedback{
+  text-align: left;
+  font-size: 15px !important;
+}
+
+.anchor-tag{
+  font-size: 17px;
+  margin-top: 12px;
+}
+
+.submit-btn{
+  width: 200px;
+  padding: 18px;
+}
+
+.card-body{
+  padding: 50px;
+}
